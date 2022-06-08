@@ -4,24 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Buddy Pet - O melhor lugar para seu amigão</title>
 </head>
 
 <body>
   <header>
-    <a href="#"><img src="img/logo.png" alt="Logo Buddy Pet"></a>
-    <input type="text" name="search" id="search" placeholder="Pesquisar na BuddyPet" required>
+    <div>
+      <a href=""><img src="img/logo.png" alt="Logo Buddy Pet"></a>
+    </div>
+    
+    <div class="container">
+      <div class="pesquisa"><input type="text" name="search" id="search" placeholder="Pesquisar na BuddyPet" required></div>
+      <ul class="nav-bar" type="none">
+        <li class="cachorros"><a href="">Cachorros</a></li>
+        <li class="gatos"><a href="">Gatos</a></li>
+        <li class="aves"><a href="">Aves</a></li>
+        <li class="outros"><a href="">Outros</a></li>
+        <li class="promoções"><a href="">Promoções</a></li>
+      </ul>
+     </div>
 
-  <div class="menu">
-      <a href="">Cachorros</a>
-      <a href="">Gatos</button></a>
-      <a href="">Aves</button></a>
-      <a href="">Outros</a>
-      <a href="">Promoções</a>
-      <a href="">Meu Carrinho</a>
-      <a href="">Entre ou Cadastre-se</a>
-  </div>  
+     <ul class="nav-bar2" type="none">
+      <li class="carrinho"><a href="">Meu Carrinho</a></li>
+      <li class="login"><a href="">Entre ou Cadastre-se</a></li>
+    </ul>
 
   </header>  
 
