@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    width: 100%;
+    max-height: 10rem;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    border:solid 2px orange;
+    
+}
+
+header form {
+  background-color: orange;
+  border: solid 1px orange;
+  border-radius: 0.3em;
+  padding: 0.3em;
+}
+
+ nav {
+  display: block;
+  height: 128px;
+  padding-top: 30px;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header div ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
+
+header nav ul a {
+    display: flex;
+    padding: 2rem;
+    text-decoration: none;
+    color:#777777;
+    font-size: 18px;
+  }
+
+header div ul a {
+  display: flex;
+  padding: 2rem;
+  text-decoration: none;
+  color:#777777;
+  font-size: 22px;
+  
+}
+
+header div a img {
+  max-height: 128px;
+}
+
+header form input {
+  width: 96%;
+ }
+
+form input, form button {
+  font-size: 1em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.1em;
+}
+
+form button {
+  background-color: orange;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+form button:hover {
+  background-color: #FFFFFF;
+  color: orange;
+}
+
+header div i {
+  font-size: 35px;
+  
+}
+
+header div i:hover {
+  background-color: #FFFFFF;
+  color: orange;
+}
+
