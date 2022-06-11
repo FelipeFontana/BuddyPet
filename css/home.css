@@ -73,7 +73,7 @@ header form input {
  }
 
 form input, form button {
-  font-size: 1em;
+  font-size: 0.9em;
   border-radius: 0.2em;
   border: none;
   padding: 0.1em;
