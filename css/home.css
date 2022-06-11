@@ -1,143 +1,165 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-/*-----------------------HEADER----------------------------------*/
-
-  header {
-    width: 100%;
-    max-height: 10rem;
-    background-color:#FFFFFF;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 20px;
-    border:solid 2px orange;
-    
-}
-
-header form {
-  background-color: orange;
-  border: solid 1px orange;
-  border-radius: 0.3em;
-  padding: 0.3em;
-}
-
- nav {
-  display: block;
-  height: 128px;
-  padding-top: 30px;
-}
-
-
-header nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header div ul {
-  display: flex;
-  list-style: none;
+*{
   margin: 0;
   padding: 0;
- }
+  box-sizing: border-box;
+}
 
-header nav ul a {
-    display: flex;
-    padding: 2rem;
-    text-decoration: none;
-    color:#777777;
-    font-size: 18px;
-  }
+main {
+  height: 1000px;
+  width: 100%;
+  border: 20px solid #FFFFFF;
+}
 
-header div ul a {
+main section nav {
   display: flex;
-  padding: 2rem;
-  text-decoration: none;
-  color:#777777;
-  font-size: 22px;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 260px;
+  padding-bottom: 1.5rem;
 }
 
-header div a img {
-  max-height: 128px;
-}
-
-header form input {
-  width: 96%;
- }
-
-form input, form button {
-  font-size: 1em;
-  border-radius: 0.2em;
-  border: none;
-  padding: 0.1em;
-}
-
-form button {
-  background-color: orange;
+main section nav button {
+  display: block;
+  font-family:'Times New Roman', Times, serif;
+  padding: 1rem;
+  background-color: #FFFFFF;
   cursor: pointer;
   color: #FFFFFF;
+  border: 1.9px solid rgb(231, 226, 226);
+  border-radius: 0.5em;
 }
 
-form button:hover {
-  background-color: #FFFFFF;
-  color: orange;
+main section nav button a {
+  text-decoration: none;
 }
 
-header div i {
-  font-size: 35px;
+main section nav button p {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  font-size: 18px;
+  color:#777777;
+  padding-top: 1.4rem;
   
 }
 
-header div i:hover {
-  background-color: #FFFFFF;
-  color: orange;
+main section nav button:hover {
+  border: solid 1px orange;
 }
-
-/*-----------------------CARROSSEL----------------------------------*/
-
-main section div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-
 
 .promoções {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color:#777777;
-  font-size: 35px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
- }
-
-
-.galery {
-  display: block;
-  height: 100%;
-  padding-bottom: 2rem;
-  background-color:#FFFFFF;
-  
+  font-size: 17px;
+  padding-top: 0.3rem;
+  padding-bottom: 1.4rem;
 }
 
-.produtos {
+section div i {
+  padding-left: 10px;
+  padding-top: 2px;
+  font-size: 26px;
+  color: orange;
+}
+
+/*------------------------------Galeria-------------------------------*/
+
+.ofertas {
+  display: flex;
+  justify-content: flex-start;
+  color:#777777;
+  font-size: 17px;
+  padding-bottom: 1.5rem;
+}
+
+.imagens {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 260px;
+  padding-bottom: 1.5rem;
+}
+
+.imagens button {
   display: block;
-  height: 100%;
-  padding-bottom: 2rem;
-  background-color:#FFFFFF;
-  
+  font-family:'Times New Roman', Times, serif;
+  padding: 1rem;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  color: #FFFFFF;
+  border: 1.9px solid rgb(231, 226, 226);
+  border-radius: 0.5em;
+}
+
+.imagens button a {
+  text-decoration: none;
+}
+
+.imagens button p {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  font-size: 18px;
+  color:#777777;
+  padding-top: 1.4rem;
+}
+
+.imagens button:hover {
+  border: solid 1px orange;
 }
 
 .vendidos {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color:#777777;
-  font-size: 35px;
+  font-size: 17px;
+  padding-bottom: 1.5rem;
+}
+
+.ícones {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 260px;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid orange;
+}
+
+.ícones button {
+  display: block;
+  font-family:'Times New Roman', Times, serif;
   padding: 1rem;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  color: #FFFFFF;
+  border: 1.9px solid rgb(231, 226, 226);
+  border-radius: 0.5em;
+}
+
+.ícones button a {
+  text-decoration: none;
+}
+
+.ícones button p {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  font-size: 18px;
+  color:#777777;
+  padding-top: 1.4rem;
+}
+
+.ícones button:hover {
+  border: solid 1px orange;
 }
