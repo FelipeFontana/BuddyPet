@@ -37,6 +37,7 @@ header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    height: 3rem;
 }
 
 header div ul {
@@ -44,7 +45,7 @@ header div ul {
   list-style: none;
   margin: 0;
   padding: 0;
- }
+}
 
 header nav ul a {
     display: flex;
@@ -52,7 +53,8 @@ header nav ul a {
     text-decoration: none;
     color:#777777;
     font-size: 18px;
-  }
+    height: 3rem;
+}
 
 header div ul a {
   display: flex;
@@ -93,12 +95,22 @@ header div i {
   
 }
 
+header nav ul a:hover {
+  background-color: #FFFFFF;
+  color: orange; 
+}
+
 header div i:hover {
   background-color: #FFFFFF;
   color: orange;
 }
 
-/*-----------------------CARROSSEL----------------------------------*/
+header div a:hover {
+  background-color: #FFFFFF;
+  color: orange;
+}
+
+/*-----------------------MAIN----------------------------------*/
 
 main {
   height: 1000px;
@@ -120,12 +132,15 @@ main section nav button {
   display: block;
   font-family:'Times New Roman', Times, serif;
   padding: 1rem;
-  text-decoration: none;
   background-color: #FFFFFF;
   cursor: pointer;
   color: #FFFFFF;
   border: 1.9px solid rgb(231, 226, 226);
   border-radius: 0.5em;
+}
+
+main section nav button a {
+  text-decoration: none;
 }
 
 main section nav button p {
@@ -184,12 +199,15 @@ section div i {
   font-family:'Times New Roman', Times, serif;
   padding: 1rem;
   padding-bottom: 10px;
-  text-decoration: none;
   background-color: #FFFFFF;
   cursor: pointer;
   color: #FFFFFF;
   border: 1.9px solid rgb(231, 226, 226);
   border-radius: 0.5em;
+}
+
+.imagens button a {
+  text-decoration: none;
 }
 
 .imagens button p {
@@ -230,12 +248,15 @@ section div i {
   font-family:'Times New Roman', Times, serif;
   padding: 1rem;
   padding-bottom: 10px;
-  text-decoration: none;
   background-color: #FFFFFF;
   cursor: pointer;
   color: #FFFFFF;
   border: 1.9px solid rgb(231, 226, 226);
   border-radius: 0.5em;
+}
+
+.ícones button a {
+  text-decoration: none;
 }
 
 .ícones button p {
