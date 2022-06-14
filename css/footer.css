@@ -12,6 +12,8 @@
    padding-left: 1rem;
    padding-right: 1rem;
    padding-top: 0.6rem;
+   box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+   border-top: 2px solid orange;
 }
 
 .block {
@@ -35,7 +37,7 @@
     font-weight: bold;
     height: auto;
     width: 60%;
-    border-right: 3px solid #504a4a;
+    border-right: 2px solid #504a4a;
 }
 
  footer .link a {
@@ -50,7 +52,7 @@
  }
 
  footer .link .barra {
-   border-left: 3px solid #504a4a;
+   border-left: 2px solid #504a4a;
    height: 20px;
    padding-right: 2rem;
    padding-left: 0.4rem;
@@ -96,7 +98,7 @@
  .copy {
    display: flex;
    justify-content: center;
-   border-top: 3px solid #504a4a;
+   border-top: 2px solid #504a4a;
    padding: 0.5rem;
    height: 2rem;
    width: 100%;
