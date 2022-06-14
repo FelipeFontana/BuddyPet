@@ -7,40 +7,103 @@
  footer {
    display: flex;
    width: 100%;
-   height: 100%;
+   height: auto;
    background-color: orange;
-  }
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 0.6rem;
+}
+
+.block {
+   display: block;
+   width: 100%;
+}
 
  footer .rodape {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
     width: 100%;
     padding: 0.5rem;
+    
  }
 
- footer div nav {
+ footer .link {
     display: flex;
+    justify-content: flex-start;
     list-style: none;
-    justify-content: space-evenly;
-    padding: 1.5rem;
-    height: auto;
+    padding: 1rem;
     font-weight: bold;
- }
+    height: auto;
+    width: 60%;
+    border-right: 3px solid #504a4a;
+}
 
- footer div nav a {
+ footer .link a {
     text-decoration: none;
     color:#504a4a;
-	 font-size: 22px;
+	 font-size: 20px;
  }
 
- footer div nav span {
+ footer .link span {
     color:#504a4a;
-	 font-size: 22px;
+	 font-size: 20px;
+ }
+
+ footer .link .barra {
+   border-left: 3px solid #504a4a;
+   height: 20px;
+   padding-right: 2rem;
+   padding-left: 0.4rem;
  }
 
  .endereco {
-    color:#504a4a;
-	font-size: 14px;
-    font-weight: bold;
-    padding-left: 0.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color:#504a4a;
+	font-size: 17px;
+   font-weight: bold;
+   padding-left: 1.5rem;
+   padding-top: 1rem;
+   padding-right: 1rem;
+   width: 44%;
+}
+
+ .endereco p {
+   display: flex;
+   justify-content: flex-start;
+   
  }
+
+ .endereco .icone {
+   display: flex;
+   padding-bottom: 1rem;
+   padding-top: 0.2rem;
+ }
+
+ .endereco .icone1 {
+   display: flex;
+   padding-bottom: 1rem;
+   padding-top: 0.2rem;
+   padding-left: 0.25rem;
+ }
+
+ .endereco i {
+   font-size: 25px;
+   padding-right: 1rem;
+ }
+
+ .copy {
+   display: flex;
+   justify-content: center;
+   border-top: 3px solid #504a4a;
+   padding: 0.5rem;
+   height: 2rem;
+   width: 100%;
+   color:#504a4a;
+	font-size: 14px;
+   font-weight: bold;
+   
+ }
+
+ 
