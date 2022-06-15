@@ -8,9 +8,8 @@
    display: flex;
    width: 100%;
    height: auto;
-   background-color: orange;
-   padding-left: 1rem;
-   padding-right: 1rem;
+   background-color: #777777;
+   
    padding-top: 0.6rem;
    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
    border-top: 2px solid orange;
@@ -37,22 +36,22 @@
     font-weight: bold;
     height: auto;
     width: 60%;
-    border-right: 2px solid #504a4a;
+    border-right: 2px solid #ffff;
 }
 
  footer .link a {
     text-decoration: none;
-    color:#504a4a;
-	 font-size: 20px;
+    color:#ffff;;
+	  font-size: 20px;
  }
 
  footer .link span {
-    color:#504a4a;
-	 font-size: 20px;
+    color:#ffff;;
+	  font-size: 20px;
  }
 
  footer .link .barra {
-   border-left: 2px solid #504a4a;
+   border-left: 2px solid #ffff;;
    height: 20px;
    padding-right: 2rem;
    padding-left: 0.4rem;
@@ -62,8 +61,8 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
-   color:#504a4a;
-	font-size: 17px;
+   color:#ffff;;
+	 font-size: 14px;
    font-weight: bold;
    padding-left: 1.5rem;
    padding-top: 1rem;
@@ -91,19 +90,20 @@
  }
 
  .endereco i {
-   font-size: 25px;
+   font-size: 20px;
    padding-right: 1rem;
  }
 
  .copy {
    display: flex;
+   background-color: #363333;
    justify-content: center;
-   border-top: 2px solid #504a4a;
+   border-top: 2px solid #ffff;
    padding: 0.5rem;
    height: 2rem;
    width: 100%;
-   color:#504a4a;
-	font-size: 14px;
+   color:#ffff;;
+	 font-size: 12px;
    font-weight: bold;
    
  }
