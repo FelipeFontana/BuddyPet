@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    height: 705px;
+    border: 15px solid #FFFFFF;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+    color:#777777;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    }
+  
+  textarea {
+    border: 3px double #ccc;
+    background: #efefef;
+    width: 180px;
+    height: 100px;
+    padding: 5px;
+  }
+
+  .conteudoFixo {
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:#FF00FF;
+    width:100%;
+}
+
+.textoseguranca {
+    height:100%;
+    width:100%;
+    position:left;
+    overflow:auto;
+    border: 1px double #000000;
+    position: relative;
+}
+
+main .textoseguranca {
+height: 100%;
+width: 60%;
+}
