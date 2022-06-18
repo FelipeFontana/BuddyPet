@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Oxygen&display=swap');
+* {
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Oxygen;
+}
+
+.caberçario{
+  display: flex;
+  line-height: 15px;
+  background-color: orange;
+  height: 20vh;  
+
+}
+.log{
+  width: 10px;
+
+  
+}
+.main{
+  height: 100vh;
+  width: 1000px;
+ 
+ 
+}
+ main > img{
+   width: 100%;
+   box-shadow: 0px 3px 21px -5px rgba(0, 0, 0, 0.75);
+   margin-top: 130px;
+   
+ }
+  
+ /* aqui esta configuração do corpo da minha pagina */
+ .corpo{
+  display: flex;
+  font-family: Gothic A1;
+  font-size: 1em;
+  color: #777777;
+  Width :86%;
+  height: 1100px;
+}
+
+/* aqui esta area de pesquisas */
+.section{
+  width: 300px;
+  max-width: 100%;
+  height: 80%;
+  background: #f1f1f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  fill: solid #FFFFFF;
+  border: #f1f1f1;
+}
+.section span{
+  display: block;
+  text-align: center;
+  border: #777777 solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;  
+  margin: 35px;
+  color: orange
+}
+.section a{
+  text-decoration: none;
+  color: #777777;
+  text-align: center;
+  display: block;
+  margin-top: 25px;
+
+}
+
+.section > a:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+.cachorro{
+  width: 100%;
+  max-width: 100%;
+  height: 80%;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: #f1f1f1 solid
+}
+
+.cachorro > h1{
+  position: absolute;
+ color: orange;
+  margin-top: 50px;
+  left: 400px;
+}
+
+/* aqui esta area da serviços */
+
+.serviços{
+  display: flex;
+  margin-left: 25px;
+  margin-top: 150px;
+  
+}
+.serviços img{
+  width: 90%;
+  cursor: pointer;
+}
+.serviços p{
+display: flex;
+transition: background 0.5s, color 0.5s;
+justify-content: center;
+}
+.serviços p:hover{
+  color: orange;
+  cursor: pointer;
+}
+#banhotosa{
+  display: block;
+  width: 300px;
+}
+#baba{
+  display: block;
+  width: 300px;
+}
+#hospedagem{
+  display: block;
+  width: 300px;
+}
+#passei{
+  display: block;
+  width: 300px;
+}
+
+/* aqui esta os produtos */
+.produtos h1{
+  position: relative;
+  font-size: 25px;
+  margin-top: 35px;
+  color: orange;
+  text-align: center;
+ }
+
+.produtos img{
+margin-top: 50px;
+  width: 200px;
+  margin-right: 5%;
+
+}
+.produtos h1{
+position: relative;
+margin-bottom: 70px;
+}
+.infomação_produto{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.infomação_produto > a {
+text-decoration: none;
+color: #777777;
+border: #777777 solid;
+}
+.infomação_produto p:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+  /* aqui esta o footer */
+  
+body{
+  display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+html {
+  height: 100%;
+  min-height: 100%;
+}
