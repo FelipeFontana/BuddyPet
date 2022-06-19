@@ -6,19 +6,55 @@
   font-family: Oxygen;
 }
 
-main{
+/*main{
   height: 100vh;
   width: 100%;
   min-height: 150vh;
   display: flex;
   position: relative;
   z-index: 2;
+}*/
+
+main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  min-height: 150vh;
+  border: 15px solid #FFFFFF;
+  box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+  padding-top: 8.5rem;
+  position: relative;
+
 }
+
+.galery{
+  width: 100%;
+  height: 310px;
+  background-color: white;
+  overflow: hidden;
+  position: absolute;
+  z-index: 3;
+  margin-left: 260px;
+}
+
+.galery .fotos{
+  width: 500%;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.galery .fotos img{
+  position: absolute;
+  z-index: 1;
+  width: 98%;
+  height: 300px;
+}
+
 
 footer{
   display: block;
   position: relative;
-  top: 10px;
   z-index: 2;
 }
 
@@ -47,10 +83,3 @@ footer{
   margin: 10px;
 } */
 
-.container{
-  display: flex;
-  border: 2px solid black;
-  padding: 2rem;
-  position: relative;
-  z-index: 3;
-}

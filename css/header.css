@@ -14,7 +14,7 @@ header {
 	padding-left: 20px;
 	border-bottom:solid 2px orange;
 	position: fixed;
-	z-index: 3;
+	z-index: 5;
 }
 
 header form {
