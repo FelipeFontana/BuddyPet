@@ -43,7 +43,7 @@ main {
 main .container {
 	display: flex;
     width: 30vw;
-    height: 115vh;
+    height: 185vh;
 
 }
 
@@ -55,7 +55,7 @@ main form {
     display: flex;
     flex-direction: column;
     width: 500vw;
-	height: 70vh;
+	height: 140vh;
     justify-content: center;
 	border-radius: 1rem;
 	border: none;
@@ -119,19 +119,29 @@ main form .entrar button:hover {
 	background-color: rgb(197, 109, 9);
 }
 
-main .aqui {
-	padding-top: 2rem;
+main .termos {
+    padding-right: 6rem;
+    padding-top: 2rem;
 	text-align: center;
 	color: #686060;
     font-weight: 400;
     font-size: 17px;
     line-height: 21px;
-	
 }
 
-main .aqui a {
-	text-decoration: none;
-	color: rgb(238, 128, 2);
+main .termos label {
+    padding-left: 0.3rem;
+   
+}
+
+main .termos a {
+    text-decoration: none;
+    color: rgb(238, 128, 2);
+}
+
+main .termos input:hover {
+    box-shadow: 0 1px 15px rgb(197, 109, 9);
+    
 }
 
 main .copy {
