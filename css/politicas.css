@@ -23,27 +23,26 @@
   textarea {
     background: #efefef;
     width: 100%;
-    height: 70%;
+    height: 100%;
     padding: 5px;
     resize: none;
     font-size: large;
     color: #777777;
-    
+    border: 1px double gray;
   }
 
   .conteudoFixo {
     position: absolute;
     top:0px;
     left:0px;
-    background-color:#FF00FF;
     width:100%;
 }
 
 .textoseguranca {
-    height:70%;
+    height:100%;
     width:100%;
     position:left;
-    overflow:auto;
+    overflow-y: hidden;
     border: 1px solid #000000;
     position: relative;
 }
@@ -51,7 +50,7 @@
   height:100%;
   width:100%;
   position:left;
-  overflow:auto;
+  overflow-y: hidden;
   border: 1px double #000000;
   position: relative;
 }
@@ -60,7 +59,7 @@
   height:100%;
   width:100%;
   position:left;
-  overflow:auto;
+  overflow: hidden;
   border: 1px double #000000;
   position: relative;
 }
