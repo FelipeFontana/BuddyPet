@@ -3,122 +3,144 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    width: 100vw;
-    height: 100vh;
-}
 
-main{
-    padding-top: 2rem;
-    width: 100vw;
-    height: 100vh;
-}
 .corpo{
-    display: flex;
+    padding-top: 2rem;
+    width: 99vw;
+    height: 100vh;
     padding: 0px;
     margin: 0px;
 }
+.firstbloco{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+  width: 100vw;
+  height: 50%;
+}
 .product{
-    
-    position: relative;
-    top: 150px;
-    left: 50px;
+  position: relative;
+  width: 35%;  
+  height: 100%; 
+  top: 250px;
+  
 }
-
 .product img{
-    width: 350px;  
-    height: 320px; 
-    object-fit: cover;
-    padding: 0px;
+  width: 420px;
+  height: 400px;
+  position: relative;
+   animation: estilo 5s 3;
 }
+@keyframes estilo {
+    0% {
+      transform: translatex(-300px);
+      opacity: 0%;
+    }
+  
+    50% {
+      transform: translateY(0);
+      opacity: 100%;
+    }
+  
+    80% {
+      transform: translateY(-32px);
+    }
+  } 
+
+  
 .informacao{
     display: block;
     position: relative;
+    right: 100px;
     color: #777777;
-    top: 120px;
-    font-size: 16px;
-    margin:100px;
-    margin-top: 25px;
-
+    top: 250px;
+    width: 30%;
+    text-align: center;
+  }
+.informacao h2{
+  position: relative;
+  top: 30px;
 }
 .informacao ul > li{
     display: block;
     position: relative;
-    top: 65px;
-    margin-top: 20px;
-    color: #777777;
-}
-.informacao h2{
-    position: relative;
-    top: 55px;
-}
-.content h6{
-    position: relative;
-    margin: 30px;
-    left: 70px;
+    top: 50px;
+    margin-top: 15px;
+  
 }
 
+
 .content{
-    position: relative;
-    border: #777777 solid 2px;
-    width: 70%;
-    height: 500px;
-    right: 55px;
-    top: 150px;
-    font-size: 28px;
-    color: #777777;
-    font-family:'Times New Roman', Times, serif;
-    
+  position: relative;
+  border: #777777 solid 2px;
+  width: 30%;
+  right: 70px;
+  height: 400px;
+  top: 280px;
+  font-size: 28px;
+  color: #777777;
+  font-family:'Times New Roman', Times, serif;
+  animation: caixa 5s 1;
 }
-.filho{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    left: 13px;
-}
-.item{
-    position: relative;
-    margin-right: 25px;
-   border: #777777 solid 2px;
-   width: 120px;
-  height: 80px;
-}
- p{
-    color: orange;
-    font-size: 18px ;
-    margin: 15px;
-    text-align: center;
-}
-.item:hover{
-    box-shadow: 0px 3px 21px -5px orange;
-    color: orange;
-    cursor: pointer;
-}
-.unidades{
-    position: relative;
-    text-align: center;
+
+.content h6{
+    text-align: center;position: relative;
     top: 15px;
 }
-.unidades option{
-    width: 100px;
+@keyframes caixa {
+    0% {
+      transform: translatex(300px);
+      opacity: 0%;
+    }
+  
+    50% {
+      transform: translateY(0);
+      opacity: 100%;
+    }
+  
+    80% {
+      transform: translateY(-32px);
+    }
+  } 
+
+.button{
+ 
+    display: flex;
+    justify-content:space-around;
+    cursor: pointer;
+    width: 400px;
+    margin-top: 30px;
+ }
+
+.valorUnidade{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  align-items: center;
+  position: relative;
+  top: 55px; 
 }
-.preco{
-    position: relative;
-    top: 70px;
+.valorUnidade select{
     text-align: center;
-    font-size: 20px;
+    width: 100px;
+    height: 28px;
+    color: #777777;
+    background-color: orange;
+    border: orange solid;
+    border-radius: 5px;
+    position: relative;
+    left: 25px;
 }
-#compre a{
-    width: 300px;
+.content > .compre > a{
+   width: 300px;
    height: 50px;
-   position: relative;
-   top: 150px;
-   left: 30px;
-   border-radius: 11px;
+   border-radius: 12px;
    background: orange;
    box-shadow: 0px 5px 0px #c96f10;;
-   margin-top: 20px;
+   position: relative;
+   top: 300px;
+   left: 55px;
    font-size: 23px;
    font-weight: normal;
    display: flex;
@@ -127,11 +149,26 @@ main{
    text-decoration: none;
    color: white;
    font-weight: bold;
+   cursor: pointer;
+
 }
-#compre a:hover{
+.compre a:hover{
     background-color: green;
     border: green solid;
     box-shadow: 0px 5px 0px rgb(2, 43, 2);
+    width: 300px;
+    height: 60px;
+    transition: width 1s, height 0.5s;
 }
+
+
+
+
+
+
+
+
+
+
 
 
